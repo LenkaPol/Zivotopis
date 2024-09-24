@@ -1,11 +1,6 @@
-.about,
-.certification,
-.contact {
-    background-color: #c3c6c1;
-}
 .work,
 .recommendations {
-    background-color: #a4ae9e;
+    background-color: #506346;
 }
 .menu li {
     display: inline-block;
@@ -14,10 +9,10 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #40493b;
+    background-color: #506346;
 }
 .menu a {
-    color: white;
+    color: #ECE6D2;
     text-decoration: none;
     padding: 20px 30px;
     display: inline-block;
@@ -25,15 +20,61 @@
 .menu a:hover,
 .menu a:focus,
 .menu a:active {
-    text-decoration: underline #a4ae9e 3px;
+    text-decoration: underline #CC9D9A 3px;
 }
 h1 {
-    color: rgb(9, 9, 9);
+    color: #CC9D9A;
     margin: 0;
+    font-size: 40px;
+    font-weight: 400;
 }
 .header { 
-    padding: 150px 30px;
     background-repeat: no-repeat;
     background-position: right;
+    background-color: #506346;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: relative;
+}
+.name {
+    color: #B26059;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 110px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #CC9D9A;
+    border: 2px solid #B26059; 
+    padding: 10px;
+    display: inline-block;
+}
+body {
+    color:#ECE6D2;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #4A5B41;
+}
+footer {
     background-color: #40493b;
+    text-align: center;
+}
+h3 {
+    color: #B26059;
+}
+h1,
+.name {
+    flex-grow: 1;
+    text-align: left;
+}
+header img {
+    width: 1000px;
+    height: auto;
 }
