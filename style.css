@@ -51,7 +51,9 @@ h2 {
     letter-spacing: 15px;
     color: #CC9D9A; 
     padding: 20px;
-    text-align: center;
+    margin: 0;
+    border: #B26059 2px solid;
+    display: inline-block;
 }
 body {
     color:#ECE6D2;
@@ -61,6 +63,7 @@ body {
     font-style: normal;
     background-color: #4A5B41;
     margin: 0;
+    font-size: 18px;
 }
 footer {
     background-color: #506346;
@@ -88,7 +91,7 @@ header img {
 .certification,
 .recommendations,
 .contact {
-    padding: 30px 8%;
+    padding: 20px 50px 100px 50px;
 }
 .targito-foto {
     width: 100px;
@@ -104,4 +107,21 @@ header img {
 }
 .bonami-foto {
     width: 100px;
+}
+h4 {
+    color:#B26059;
+    font-weight: 300;
+    font-size: 20px;
+}
+.date {
+    font-style:italic;
+}
+hr {
+    border: 1px #CC9D9A solid ; 
+}
+li::marker {
+    color: #CC9D9A;
+}
+.centred {
+    text-align: center;
 }
