@@ -25,8 +25,8 @@
 h1 {
     color: #CC9D9A;
     margin: 0;
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 80px;
+    font-weight: 200;
 }
 .header { 
     background-repeat: no-repeat;
@@ -43,16 +43,15 @@ h1 {
     font-family: "Shadows Into Light", cursive;
     font-weight: 800;
     font-style: normal;
-    font-size: 110px;
+    font-size: 130px;
 }
 h2 {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 50px;
-    letter-spacing: 5px;
-    color: #CC9D9A;
-    border: 2px solid #B26059; 
-    padding: 10px;
-    display: inline-block;
+    letter-spacing: 15px;
+    color: #CC9D9A; 
+    padding: 20px;
+    text-align: center;
 }
 body {
     color:#ECE6D2;
@@ -61,20 +60,48 @@ body {
     font-weight: 400;
     font-style: normal;
     background-color: #4A5B41;
+    margin: 0;
 }
 footer {
-    background-color: #40493b;
+    background-color: #506346;
     text-align: center;
+    padding: 20px 0;
 }
 h3 {
     color: #B26059;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 30px 0 0 0;
 }
 h1,
 .name {
     flex-grow: 1;
     text-align: left;
+    padding-left: 20px;
 }
 header img {
-    width: 1000px;
+    width: 850px;
     height: auto;
+}
+.about,
+.work,
+.certification,
+.recommendations,
+.contact {
+    padding: 30px 8%;
+}
+.targito-foto {
+    width: 100px;
+}
+.donio-foto {
+    width: 100px;
+}
+.digitoo-foto {
+    width: 100px;
+}
+.favi-foto {
+    width: 100px;
+}
+.bonami-foto {
+    width: 100px;
 }
