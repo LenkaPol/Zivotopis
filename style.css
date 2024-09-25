@@ -158,3 +158,6 @@ body a:active {
 .contact p {
     margin-top: 50px;
 }
+.certification a {
+    font-style: italic;
+}
