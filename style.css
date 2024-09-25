@@ -39,7 +39,7 @@ h1 {
     position: relative;
 }
 .name {
-    color: #B26059;
+    color: #b26059;
     font-family: "Shadows Into Light", cursive;
     font-weight: 800;
     font-style: normal;
@@ -49,10 +49,10 @@ h2 {
     font-weight: 500;
     font-size: 50px;
     letter-spacing: 15px;
-    color: #CC9D9A; 
+    color: #b26059; 
     padding: 20px;
-    margin: 0;
-    border: #B26059 2px solid;
+    margin: 0 0 50px 0;
+    border: #CC9D9A 2px solid;
     display: inline-block;
 }
 body {
@@ -91,7 +91,8 @@ header img {
 .certification,
 .recommendations,
 .contact {
-    padding: 20px 50px 100px 50px;
+    padding: 80px 250px 100px 250px;
+    overflow: auto;
 }
 .targito-foto {
     width: 100px;
@@ -113,7 +114,7 @@ h4 {
     font-weight: 300;
     font-size: 20px;
 }
-.date {
+.italic {
     font-style:italic;
 }
 hr {
@@ -124,4 +125,36 @@ li::marker {
 }
 .centred {
     text-align: center;
+}
+body a {
+    color: #CC9D9A;
+    text-decoration: none;
+}
+body a:hover,
+body a:focus,
+body a:active {
+    text-decoration: underline #B26059 1px; 
+}
+.left-img {
+    float: left;
+    margin-right: 100px;
+    width: 300px;
+    overflow: auto;
+}
+.right-img {
+    float: right;
+    width: 300px;
+    overflow: auto;
+}
+.about p {
+    margin-top: 0px;
+}
+.text_about {
+    margin-top: 50px;
+}
+.certification li {
+    margin-top: 40px;
+}
+.contact p {
+    margin-top: 50px;
 }
